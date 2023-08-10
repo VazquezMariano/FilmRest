@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Peliculas</title>
+</head>
+<body>
+    <section class="father">
+        <header class="header">
+            <div class="blanco">
+                <h1>Film.</h1>
+            </div>
+        </header>
+        <main>
+            <article id="contenido">
+            </article>
+            <article class="interaccion">
+
+                <div class="post">
+                    <input type="text" id="titulo"  placeholder="Titulo">
+                    <input type="text" id="resumen" placeholder="Resumen">
+                    <input type="number" min="1" max="5" id="valoracion" placeholder="Valoracion">
+                    <button id="enviar">Enviar</button>
+                </div>
+                <div class="delete">
+                    <input type="number" id="id" placeholder="ID de pelicula a eliminar">
+                    <button id="ideliminar">Eliminar</button>
+                </div>
+                <div class="edit">
+                    <input type="text" id="PUTtitulo" placeholder="Editar titulo">
+                    <input type="text" id="PUTresumen" placeholder="Editar resumen">
+                    <input type="number" min="1" max="5" id="PUTvaloracion" placeholder="Editar valoracion">
+                    <input type="number" id="PUTid" placeholder="Seleccione ID">
+                    <button id="PUTenviar">Editar</button>
+                </div>
+                <h3 id="msg"></h3>
+            </article>
+        </main>
+        <footer class="footer">
+            <ul class="footer-lista">
+                <li>✉️ vazquezmariano28@gmail.com</li>
+                <li>📱 +54 9 11 2624-1251</li>
+            </ul>
+        </footer>
+    </section>
+
+
+<script src="script.js"></script>
+</body>
+</html>
